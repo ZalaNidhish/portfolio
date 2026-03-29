@@ -33,6 +33,8 @@ const Navbar = ({ onResumeClick }) => {
         <ul className="nav-links">
           <li><NavLink to="/" className={({ isActive }) => `nav-link ${isActive ? "active" : ""}`} end>Home</NavLink></li>
           <li><NavLink to="/about" className={({ isActive }) => `nav-link ${isActive ? "active" : ""}`}>About</NavLink></li>
+          <li><NavLink to="/pricing" className={({ isActive }) => `nav-link ${isActive ? "active" : ""}`}>Pricing</NavLink></li>
+          <li><NavLink to="/services" className={({ isActive }) => `nav-link ${isActive ? "active" : ""}`}>Services</NavLink></li>
           {isHome && (
             <>
               <li><a href="#projects" className="nav-link">Projects</a></li>
@@ -61,6 +63,8 @@ const Navbar = ({ onResumeClick }) => {
       <div className={`mobile-menu ${menuOpen ? "open" : ""}`}>
         <NavLink to="/" className="nav-link" end>Home</NavLink>
         <NavLink to="/about" className="nav-link">About</NavLink>
+        <NavLink to="/pricing" className="nav-link">Pricing</NavLink>
+        <NavLink to="/services" className="nav-link">Services</NavLink>
         {isHome && (
           <>
             <a href="#projects" className="nav-link">Projects</a>
