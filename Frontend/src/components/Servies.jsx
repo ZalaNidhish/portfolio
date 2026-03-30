@@ -6,7 +6,7 @@ const Servies = () => {
   useScrollAnimation();
   return (
     <div style={{background: "var(--bg-primary)", minHeight: "100vh", paddingTop: "6rem", color: "var(--text-primary)"}}>
-      Servies
+      Coming soon
     </div>
   );
 };
