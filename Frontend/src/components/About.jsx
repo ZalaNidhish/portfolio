@@ -14,7 +14,7 @@ const About = () => {
           <div className="about-img-wrapper aos-left">
             <div style={{ position: "relative" }}>
               <div className="about-img-frame">
-                <img src={photo} alt="Nidhish Zala" style={{ width: "100%", height: "100%", objectFit: "cover", objectPosition: "top center", display: "block" }} />
+                <img src={photo} alt="Nidhish Zala" style={{ width: "100%", height: "100%", objectFit: "cover", objectPosition: "center", display: "block" }} />
                 {/* Overlay tint */}
                 <div style={{ position: "absolute", inset: 0, background: "linear-gradient(to bottom, transparent 60%, rgba(10,10,15,0.4) 100%)", pointerEvents: "none", zIndex: 1 }} />
               </div>
@@ -46,7 +46,7 @@ const About = () => {
                 { label: "Year", value: "First Year — Computer Engineering" },
                 { label: "Location", value: "Anand, Gujarat, India" },
                 { label: "Email", value: <a href="mailto:nidhish1132007@gmail.com">nidhish1132007@gmail.com</a> },
-                { label: "GitHub", value: <a href="https://github.com/ZalaNidhsih" target="_blank" rel="noreferrer">github.com/ZalaNidhsih</a> },
+                { label: "GitHub", value: <a href="https://github.com/ZalaNidhish" target="_blank" rel="noreferrer">github.com/ZalaNidhish</a> },
                 { label: "Phone", value: "+91 90163 25239" },
               ].map(({ label, value }) => (
                 <div key={label}>
@@ -102,8 +102,8 @@ const About = () => {
             </div>
 
             <div style={{ display: "flex", gap: "1rem", flexWrap: "wrap" }}>
-              <a href="/#projects" className="btn-primary">View Projects</a>
-              <a href="/#contact" className="btn-secondary">Get in Touch</a>
+              <a href="/" className="btn-primary">View Projects</a>
+              <a href="/contact" className="btn-secondary">Get in Touch</a>
             </div>
           </div>
         </div>
@@ -119,12 +119,13 @@ const About = () => {
         <div style={{ display: "flex", flexDirection: "column", gap: 0, maxWidth: "700px", position: "relative" }}>
           <div style={{ position: "absolute", left: "11px", top: 0, bottom: 0, width: "1px", background: "linear-gradient(to bottom, var(--accent), var(--border))" }} />
           {[
-            { year: "2022", title: "First Line of Code", desc: "Started learning HTML & CSS, built first static website out of pure curiosity." },
-            { year: "2023", title: "JavaScript & React", desc: "Learned JavaScript deeply, picked up React, and built first dynamic web applications." },
-            { year: "2024", title: "Full Stack & First Clients", desc: "Completed PixelPlus Media and Laxmi Cement Articles — first real-world client projects deployed to production." },
-            { year: "2024", title: "Joined BVM Engineering College", desc: "Enrolled in B.E. Computer Engineering. Continued building projects alongside academics." },
+            { year: "2022", title: "First Line of Code", desc: "Started learning HTML & CSS, built first TOM & JERRY game out of pure curiosity." },
+            { year: "2023", title: "JavaScript & CSS", desc: "Learned JavaScript deeply, Built Responive designs" },
+            { year: "2024", title: "React & Tailwind", desc: "Started exploring new Technologies, learned React and switched to Tailwind css" },
+            { year: "2024", title: "Built Real things", desc: "Completed PixelPlus Media and Laxmi Cement Articles — first real-world client projects deployed to production." },
+            { year: "2025", title: "Started my Bachelors in BVM", desc: "Enrolled in B.Tech Computer Engineering. Continued building projects alongside academics." },
             { year: "2025", title: "UDAAN'26 — Double Trophy", desc: "Won both a Winner and Runner-Up trophy at UDAAN'26 tech events at BVM Engineering College." },
-            { year: "2025", title: "NCC Webapp — Biggest Build Yet", desc: "Developing a full-stack institutional webapp for 38 Gujarat BN NCC — event attendance, cadet profiles, Excel automation." },
+            { year: "2026", title: "NCC Webapp — Biggest Build Yet", desc: "Developing a full-stack institutional webapp for 38 Gujarat BN NCC — event attendance, cadet profiles, Excel automation." },
           ].map((item, i) => (
             <div key={i} className="aos-init" style={{ display: "flex", gap: "1.5rem", paddingBottom: "2.5rem", position: "relative", transitionDelay: `${i * 80}ms` }}>
               <div style={{ width: "24px", height: "24px", borderRadius: "50%", background: "var(--bg-primary)", border: "2px solid var(--accent)", flexShrink: 0, zIndex: 1, marginTop: "0.1rem" }} />
