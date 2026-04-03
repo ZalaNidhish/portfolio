@@ -7,7 +7,6 @@ import Cursor from "./components/Cursor";
 import ResumeModal from "./components/ResumeModal";
 import SplashScreen from "./components/SplashScreen";
 import Pricing from "./components/Pricing";
-import Servies from "./components/Servies";
 
 const App = () => {
   const [resumeOpen, setResumeOpen] = useState(false);
@@ -24,7 +23,7 @@ const App = () => {
             <Route path="/" element={<Home onResumeClick={() => setResumeOpen(true)} />} />
             <Route path="/about" element={<About />} />
             <Route path="/pricing" element={<Pricing />} />
-            {/* <Route path="/services" element={<Servies />} /> */}
+            <Route path="/resume" element={<ResumeModal />} />
           </Routes>
           {resumeOpen && <ResumeModal onClose={() => setResumeOpen(false)} />}
         </>
