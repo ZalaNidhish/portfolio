@@ -10,6 +10,7 @@ const Home = ({ onResumeClick }) => {
     <div>
       <Hero onResumeClick={onResumeClick} />
       <Project />
+      {/* Need a lot of changes in this project section ... */}
       <TechTools />
       <Contact />
       <Footer onResumeClick={onResumeClick} />
