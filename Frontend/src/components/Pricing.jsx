@@ -47,7 +47,7 @@ const Pricing = () => {
       </div>
       <div className="card price-card" style={{background: "var(--bg-card)", padding: "2rem", borderRadius: "2vw",}}>
         <p style={{fontSize: "1.5rem"}}>WebApp Developement</p>
-        <p className="price" style={{fontSize: "3rem"}}>₹50k</p>
+        <p className="price" style={{fontSize: "3rem"}}>₹30k</p>
         <p style={{color: "var(--text-secondary)"}}>one time</p>
         <ul className="tickmark" style={{padding: "2vw 0",}}>
           <li style={{padding: "4px"}}>Fully Custom Web Application</li>

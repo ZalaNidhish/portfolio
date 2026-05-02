@@ -309,6 +309,14 @@ body::before {
   font-size: 1.5rem;
   color: var(--text-primary);
   text-decoration: none;
+  height: 10vh;
+  width: 6vw;
+}
+
+.nav-logo #logo{
+   height :100%;
+   width: 100%;
+   object-fit: contain;
 }
 
 .nav-logo span {
@@ -1234,7 +1242,7 @@ body::before {
 .about-img-frame img {
   width: 100%;
   height: 100%;
-  object-fit: cover;
+  object-fit: contain;
   display: block;
   /* ADD YOUR PHOTO SRC HERE */
 }

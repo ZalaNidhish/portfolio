@@ -281,7 +281,7 @@ const Project = () => {
                       {project.statusLabel}
                     </span>
                   </div>
-                  <div style={{ fontFamily: "'momo', sans-serif", fontSize: "3.75rem", color: "var(--border)", lineHeight: 1, userSelect: "none", opacity: 0.7 }}>
+                  <div style={{ fontFamily: "'momo', sans-serif", fontSize: "3.75rem", color: "var(--accent)", lineHeight: 1, userSelect: "none", opacity: 0.7 }}>
                     {project.number}
                   </div>
                 </div>
